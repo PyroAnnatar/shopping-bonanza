@@ -54,7 +54,7 @@ const ShoppingList = () => {
       <ul className="w-full mt-4 font-serif">
         {list.map((item) => (
           <li key={item.id} className="flex justify-between mt-4 items-center">
-            <span className="flex-grow mr-4 break-words max-w-[calc(100%-8rem)]">
+            <span className=" mr-4 break-words max-w-[calc(100%-8rem)]">
               {item.name}
             </span>
             <button
